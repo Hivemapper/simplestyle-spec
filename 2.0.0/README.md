@@ -118,6 +118,22 @@ are encouraged to set `fill` to 0 by default in that case.
             // value must be a floating point number greater than or equal to
             // zero and less or equal to than one
             "fill-opacity": 0.5
+
+            // OPTIONAL: default ""
+            // Icon to be used for symbol layers
+            //
+            // value must be a key that's used to be mapped to external icon definitions
+            "icon-image": "stop"
+
+            // OPTIONAL
+            // data to populate popup associated with the element. 
+            //
+            // value must be a key that's used to be mapped to external icon definitions
+            "popup-content": {
+                "title": "AI Event",
+                "tags": [{ label: 'HIGH SPEED', color: #FFFFFF }]
+                "media":  URL,
+            }
         }
     }]
 }
