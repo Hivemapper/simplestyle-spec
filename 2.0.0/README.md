@@ -131,8 +131,8 @@ are encouraged to set `fill` to 0 by default in that case.
             // value must be a key that's used to be mapped to external icon definitions
             "popup-content": {
                 "title": "AI Event",
-                "tags": [{ label: 'HIGH SPEED', color: #FFFFFF }]
-                "media":  URL,
+                "tags": [{ "label": "HIGH SPEED", "color": "#FFFFFF" }]
+                "media":  "https://...",
             }
         }
     }]
