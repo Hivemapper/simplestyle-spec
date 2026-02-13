@@ -132,7 +132,7 @@ are encouraged to set `fill` to 0 by default in that case.
             "popup-content": {
                 "title": "AI Event",
                 "tags": [{ "label": "HIGH SPEED", "color": "#FFFFFF" }]
-                "media":  { "type": "video" | "image", url: "https://..." },
+                "media":  { "type": "VIDEO" | "IMAGE", url: "https://..." },
             }
         }
     }]
